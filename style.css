@@ -1,0 +1,272 @@
+body{
+  font-family: "Heebo", sans-serif;
+  margin: 0;
+  color: #21243D;
+
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  margin: 15px auto 0 auto;
+}
+
+.nav-link{
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+#menu-button{
+  display: none;
+}
+
+#nav-links{
+  display: flex;
+  gap: 65px;
+}
+
+header {
+  display: flex;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  margin: 75px auto;
+  justify-content: space-between;
+}
+
+h1{
+  font-weight: 700;
+  font-size: 44px;
+}
+#button-cv{
+  background-color: #b51818;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 5px 15px;
+}
+
+#subtitle{
+  font-size: 16px;
+  width: 630px;
+  margin: 35px 0;
+}
+
+#Blog{
+  background-color: #EDF7FA;
+  padding-bottom: 35px;
+}
+
+#blog-content{
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+h2{
+  font-weight: 400;
+  font-size: 22px;
+  padding-top: 20px;
+}
+#articles{
+  display: flex;
+  justify-content: space-between;
+}
+
+.article-blog{
+  background-color: white;
+  border-radius: 4px;
+  width: 543px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  max-width: 48%;
+}
+.article-titre{
+  font-size: 26px;
+}
+.date-categorie{
+  font-size: 18px;
+  display: flex;
+  gap: 25px;
+}
+.article-description{
+  font-size: 16px;
+}
+
+#projets{
+max-width: 1200px;
+padding-left: 20px;
+padding-right: 20px;
+box-sizing: border-box;
+margin: auto;
+}
+
+.projet{
+  display: flex;
+  gap: 50px;
+  margin-bottom: 40px;
+}
+
+.projet-title{
+  font-size: 30px;
+  font-weight: 500;
+  margin: 0 0 15px 0;
+}
+
+.date-type{
+  gap: 25px;
+  display: flex;
+}
+
+.projet-date{
+  background-color: #142850;
+  color: white;
+  border-radius: 16px;
+  font-weight: 900;
+  font-size: 18px;
+  width: 62px;
+  height: 25px;
+  text-align: center;
+}
+
+.projet-type{
+  font-size: 20px;
+  font-weight: 400;
+  color: #4b535c;
+}
+
+.projet-description{
+  font-size: 16px;
+}
+
+#contact{
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+#contact-content{
+  display: flex;
+  gap: 40px;
+
+}
+
+.contact-title{
+  font-weight: 800;
+  font-size: 36px;
+}
+
+#contact-intro{
+  font-size: 20px;
+}
+
+#Email{
+  font-size: 16px;
+}
+
+.social-link{
+  font-size: 16px;
+  color: #000000;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 10px;
+}
+
+#coordonnees{
+  flex: 1;
+}
+
+label{
+  font-size: 14px;
+}
+
+input, select, textarea{
+background-color: #F7F7F7;
+border: none;
+height: 46px;
+}
+textarea{
+  height: 165px;
+}
+
+button{
+  background-color: #000000;
+  color: #FFFFFF;
+  border: none;
+  height: 56px;
+}
+
+footer{
+  padding-top: 100px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#logo-socials{
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+
+#copyright{
+  color: #21243D;
+  font-size: 14px;
+}
+
+@media(max-width: 900px) {
+ #coordonnees{
+  display: none;
+ }
+ .projet{
+  flex-direction: column;
+ }
+ .projet-image{
+  width: 100%;
+}
+#articles{
+  flex-direction: column;
+  gap: 20px;
+}
+.article-blog{
+  max-width: none;
+  width: 100%;
+}
+.date-categorie{
+  gap: 5px;
+}
+header{
+  flex-direction: column-reverse;
+  text-align: center;
+}
+#header-content{
+  width: 100%;
+}
+h2{
+  text-align: center;
+}
+.nav-link{
+  display: none;
+}
+#menu-button{
+  display: block;
+}
+#subtitle{
+  width: 100%;
+}
+}
